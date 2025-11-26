@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "JavaScript",
+        "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat quam fugiat error adipisci, fugit voluptates aliquid labore libero, eius ducimus? Quam expedita iusto ab iste illo ipsa veritatis fugit.",
+        "ano": 1995,
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+    },
+    {
+        "nome": "Python",
+        "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat quam fugiat error adipisci, fugit voluptates aliquid labore libero, eius ducimus? Quam expedita iusto ab iste illo ipsa veritatis fugit.",
+        "ano": 1991,
+        "link": "https://docs.python.org/3/"
+    }
+]
