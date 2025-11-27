@@ -1,131 +1,125 @@
-# Base de Conhecimento de Linguagens de Programação
+# 📚 Guia Interativo de Carreiras em Tecnologia
 
-## 📋 Descrição
+## 🧩 Sobre o Projeto
 
-Uma aplicação web interativa para explorar e buscar informações sobre linguagens de programação. O projeto apresenta uma interface intuitiva e responsiva que permite aos usuários descobrir detalhes sobre diferentes linguagens, incluindo ano de criação, descrição e links para documentação oficial.
+O Guia Interativo de Carreiras em Tecnologia é uma aplicação simples, leve e totalmente responsiva desenvolvida durante a Imersão Dev com Google e Alura 2025.
+O objetivo é apresentar diferentes carreiras do universo tech, permitindo que iniciantes entendam rapidamente o papel de cada área no mercado de tecnologia.
 
-## ✨ Características
+A aplicação utiliza exclusivamente as tecnologias ensinadas na Imersão: HTML, CSS, JavaScript e JSON.
 
-- 🔍 **Busca Dinâmica**: Filtro em tempo real por nome da linguagem ou palavras-chave na descrição
-- 📱 **Design Responsivo**: Interface adaptável para dispositivos móveis e desktops
-- 🎨 **Interface Limpa**: Design moderno e intuitivo
-- 🔗 **Links Diretos**: Acesso rápido à documentação oficial de cada linguagem
-- 📦 **Dados Estruturados**: Dados armazenados em JSON para fácil manutenção
 
-## 🛠️ Tecnologias Utilizadas
+## 🔎 Demonstração
+[Visite o site aqui](https://vanderleyoliveira.github.io/base-de-conhecimento/)
 
-- **HTML5**: Estrutura semântica da aplicação
-- **CSS3**: Estilização e responsividade
-- **JavaScript**: Funcionalidades interativas e busca dinâmica
-- **JSON**: Armazenamento de dados das linguagens
 
-## 📁 Estrutura do Projeto
+## 🎯 Objetivo do Projeto
 
+Criar uma aplicação web responsiva e leve que permita:
+
+- Pesquisar carreiras de tecnologia
+- Visualizar descrições, ano de ascensão e links úteis
+- Entender o papel de diferentes profissionais da área
+- Explorar o universo tech por meio de uma interface intuitiva
+
+Este projeto funciona como um guia inicial para quem está começando na área de tecnologia.
+
+
+## 🛠 Tecnologias Utilizadas
+
+- HTML5 – Estrutura da aplicação
+- CSS3 – Estilização e identidade visual
+- JavaScript – Lógica da busca e renderização dinâmica
+- JSON – Base de conhecimento com informações das carreiras
+
+Nenhuma biblioteca ou framework externo foi utilizado, em alinhamento com as regras da Imersão.
+
+
+## 📂 Estrutura do Projeto
 ```
-imersao_alura/
+./
 ├── index.html        # Arquivo principal da aplicação
 ├── style.css         # Estilos e layout
 ├── script.js         # Lógica da aplicação (busca e renderização)
 ├── data.json         # Base de dados com informações das linguagens
 ├── README.md         # Este arquivo
-├── public/           # Recursos públicos (ícones, imagens)
-└── ...
+└── public/           # Recursos públicos (ícones, imagens)
 ```
 
-## 🚀 Como Usar
 
-### Pré-requisitos
-- Navegador web moderno (Chrome, Firefox, Safari, Edge)
-- Sem dependências externas
+## 🚀 Funcionalidades
+### 🔎 Busca dinâmica
 
-### Instalação
+O usuário pode buscar por qualquer termo relacionado ao nome ou descrição das carreiras.
 
-1. **Clone o repositório ou baixe os arquivos**
+### 📄 Renderização automática
 
-2. **Abra o arquivo `index.html` no navegador**
-   - Duplo clique em `index.html` ou
-   - Arraste o arquivo para o navegador
+Os cards são gerados dinamicamente a partir do data.json, sem recarregar a página.
 
-3. **Comece a explorar!**
+### 📱 Responsividade
 
-## 🔍 Funcionalidades
+Todo o layout é adaptado para telas grandes e pequenas.
 
-### Buscar Linguagens
-- Digite o nome de uma linguagem no campo de busca
-- Clique em "Buscar" ou pressione Enter
-- Os resultados são filtrados em tempo real
-- A busca funciona por nome ou palavras na descrição
+### 🎨 UI moderna
 
-### Visualizar Informações
-- Cada linguagem exibe:
-  - Nome
-  - Ano de criação
-  - Descrição
-  - Link para documentação oficial
+Design minimalista com cores suaves e detalhes visuais inspirados em interfaces modernas.
 
-## 📝 Estrutura de Dados
 
-O arquivo `data.json` armazena as informações das linguagens:
+## 📘 Conteúdo da Base de Carreiras
 
-```json
-{
-  "nome": "JavaScript",
-  "descricao": "Descrição da linguagem...",
-  "ano": 1995,
-  "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
-}
+O arquivo data.json contém informações essenciais de cada profissão:
+
+- nome
+- ano de ascensão/popularização
+- descrição da carreira
+- link para estudo ou documentação
+
+Esse formato facilita a expansão e permite que novas carreiras sejam incluídas com facilidade.
+
+
+## 🔧 Como Executar o Projeto
+
+1. Clone o repositório:
+
+```
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+
 ```
 
-## ➕ Como Adicionar Novas Linguagens
+2. Entre na pasta:
 
-1. Abra o arquivo `data.json`
-2. Adicione um novo objeto ao array com a seguinte estrutura:
+```
+cd SEU_REPOSITORIO
 
-```json
-{
-  "nome": "Nome da Linguagem",
-  "descricao": "Descrição sobre a linguagem",
-  "ano": 2024,
-  "link": "https://link-para-documentacao.com"
-}
 ```
 
-3. Salve o arquivo
-4. Atualize a página no navegador
+3. Abra o arquivo index.html diretamente no navegador.
 
-## 📊 Exemplo de Uso
+⭐ Não é necessário servidor ou instalação de dependências.
 
-1. Abra a aplicação
-2. Na barra de busca, digite "Java"
-3. Clique em "Buscar"
-4. Os cards com Java serão exibidos
-5. Clique em "Conheça mais da linguagem" para acessar a documentação
 
-## 🎯 Objetivos do Projeto
+## 🧩 Como Personalizar
 
-Este projeto foi desenvolvido como parte de uma imersão educativa para:
-- Praticar HTML semântico
-- Dominar CSS e responsividade
-- Desenvolver lógica em JavaScript
-- Trabalhar com API fetch e JSON
-- Criar aplicações web interativas
+Você pode:
 
-## 🤝 Contribuições
+- Editar ou adicionar novos itens no data.json
+- Ajustar estilos no style.css
+- Modificar a renderização no script.js
 
-Sinta-se livre para:
-- Adicionar novas linguagens ao `data.json`
-- Melhorar a estilização
-- Implementar novas funcionalidades
-- Corrigir bugs
+O projeto foi pensado para ser simples de estender.
+
+
+## 🏆 Projeto para a Imersão Dev com Google e Alura
+
+Este projeto foi desenvolvido como parte da participação na seleção dos Melhores Projetos da Imersão Dev com Google e Alura 2025.
+
+O foco da proposta é:
+
+- Criar uma aplicação útil
+- Totalmente alinhada ao conteúdo ensinado
+- Responsiva, acessível e de fácil uso
+- Com utilidade real para quem deseja explorar carreiras na área de tecnologia
+
 
 ## 📄 Licença
 
-Este projeto é de código aberto e está disponível para fins educacionais.
-
-## 👨‍💻 Desenvolvedor
-
-Criado durante a Imersão Alura.
-
----
-
-**Última atualização**: 25 de novembro de 2025
+Este projeto é open-source e você pode utilizá-lo para estudos ou como base para seus próprios projetos.
