@@ -9,7 +9,7 @@ A aplicação utiliza exclusivamente as tecnologias ensinadas na Imersão: HTML,
 
 
 ## 🔎 Demonstração
-[Visite o site aqui](https://vanderleyoliveira.github.io/base-de-conhecimento/)
+[Visite o site aqui](https://vanderleyoliveira.github.io/guia-interativo-de-carreiras/)
 
 
 ## 🎯 Objetivo do Projeto
